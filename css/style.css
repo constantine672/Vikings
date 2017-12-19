@@ -1,0 +1,142 @@
+/* ================================================================================
+    #Reset
+================================================================================ */
+
+* { margin: 0; padding: 0; outline: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+header, footer, nav, section, article, aside, figure, details, summary { display: block; }
+
+/* ================================================================================
+    #Base
+================================================================================ */
+
+body, html { height: 100%; }
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 14px;
+    line-height: 1.2;
+    color: #222;
+    background: #fff;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a { color: #8bc6ff; text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: underline; }
+a img { border: 0; }
+img { height: auto; max-width: 100%; font-size: 0; vertical-align: middle; }
+
+h1, h2, h3, h4, h5, h6 { line-height: 1.1; font-weight: normal; font-family: 'Neucha', sans-serif; }
+
+h1 { font-size: 64px; line-height: 67px; }
+h2 { font-size: 48px; line-height: 51px; }
+h3 { font-size: 36px; line-height: 39px; }
+h4 { font-size: 30px; line-height: 33px; }
+h5 { font-size: 24px; line-height: 27px; }
+h6 { font-size: 18px; line-height: 21px; }
+
+ul { list-style: disc inside none; }
+ol { list-style: decimal inside none; }
+
+/* ================================================================================
+    #Form Elements
+================================================================================ */
+
+input, textarea, select { font-family: 'Open Sans', sans-serif; font-size: 13px; }
+textarea { overflow: auto; resize: none; -webkit-overflow-scrolling: touch; }
+
+input,
+textarea { box-sizing: border-box; max-width: 100%; -webkit-appearance: none; -moz-appearance: none; appearance: none; border-radius: 0; box-shadow: none; }
+
+input[type="checkbox"] { -webkit-appearance: checkbox; -moz-appearance: checkbox; appearance: checkbox; }
+input[type="radio"] { -webkit-appearance: radio; -moz-appearance: radio; appearance: radio; }
+
+input[type="radio"],
+input[type="checkbox"] { width: auto; height: auto; padding: 0; border: 0; }
+
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+button { cursor: pointer; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner { padding: 0; border: 0; }
+
+/* ================================================================================
+    # Clear 
+================================================================================ */
+
+.clearfix { *zoom: 1; }
+.clearfix:after { content: ''; font-size: 0; line-height: 0; display: block; clear: both; }
+
+.shell { width: 1100px; margin: 0 auto; }
+
+/* ================================================================================
+    #Elements
+================================================================================ */
+
+.header { background: #f1f1f1; }
+.header .logo { float: left; width: 120px; }
+.header .nav { float: right; margin-top: 21px; }
+.header .nav ul { list-style-type: none; }
+.header .nav ul li { display: inline-block; margin: 0 15px; font-size: 16px;}
+.header .nav ul li a { color: #111; }
+.header .nav ul li.action a { background: #d35400; color: #fff; text-align: center; padding: 4px 16px;  }
+
+.home-banner { background: url('images/banner-home.jpg') no-repeat center center; background-size: cover; height: 550px; position: relative; }
+.home-banner:before { content: ''; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0,0,0,0.6); z-index: 1; }
+.home-banner .inner{ max-width: 55%; margin: 0 auto; color: #fff; position: relative; z-index: 2; text-align: center; padding-top: 180px; }
+.home-banner .inner h2 { font-size: 44px; line-height: 50px; font-weight: bold; padding-bottom: 20px; }
+.home-banner .inner p { font-size: 18px; line-height: 24px; }
+
+.services { padding: 80px 0; background: #d35400; }
+.services ul { list-style-type: none; }
+.services ul li { float: left; width: 33.3%; color: #fff; text-align: center; padding: 0 20px; box-sizing: border-box; }
+.services ul li img { padding-bottom: 15px; }
+.services ul li h3 { font-size: 24px; line-height: 28px; padding-bottom: 15px; }
+.services ul li p { line-height: 22px; }
+
+.footer { background: #111; color: #fff; text-align: center; padding: 20px 0; }
+/*<!--home page finished-->*/
+.history-banner { background: url('images/history.jpg') no-repeat center center; background-size: cover; height: 650px; position: relative; }
+.history-banner .inner img {
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.pleft {
+    float:right;
+    color: #FFF;
+    text-align: right;
+    width: 50%;
+    margin-right: 25px;
+    margin-top:80px;
+    font-size: 16px;
+
+}
+.secondpic img{
+    float: right;
+    width: 30%;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.secondpic p{
+    float:left;
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 25px;
+    color: #FFF;
+    font-size: 16px;
+}
+/*second page ends here*/
+.form input{
+    margin-bottom: 10px;
+}
+.submit {
+    margin-top: 10px;
+}
+/*form ends here*/
+.religion-banner { background: url('images/religion.jpg') no-repeat center center; background-size: cover; height: 650px; position: relative; }
+.last  { padding: 80px 0; background: #e74c3c; }
